@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(56, 56, 56);
+    color: aliceblue;
+    font-family: 'Bebas Neue', sans-serif;
+    
+
+}
+img{
+    width: 100px;
+}
+
+header{
+    background-color: rgb(109, 5, 5);
+    display: flex;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20%;
+    
+}
+.title{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   gap: 3%;
+}
+
+.contenu{
+ border: 5%;
+    border-width: 5%;
+    border-color: rgb(109, 5, 5);
+    border-style:solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(88, 87, 87, 0.629) ;
+    font-size: 18px;
+    
+
+}
+
+h2{
+    font-size: 30px;
+    color: chocolate;
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+h1{
+    font-size: 45px;
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+footer{
+    color: red;
+    
+}
+button{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: chocolate;
+    border-color: chocolate;
+    margin-bottom: 5%;
+    font-size: 12px;
+}
+
+.pika{
+    width: 100px;
+    
+    
+}
+
+.creat{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: center;
+}
+a{
+    color: rgb(241, 240, 240);
+    font-size: 20px;
+    text-decoration:none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-top: 5%;
+    
+}
+input{
+    width: 20%;
+    padding: 1% 2% 1% 2%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+}
